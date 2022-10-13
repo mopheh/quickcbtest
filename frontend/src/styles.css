@@ -1,0 +1,137 @@
+body {
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 2px;
+}
+
+.nav-link {
+  color: #dee2e6;
+  font-family: "Rubik", sans-serif;
+  font-size: 17px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: #ffffff;
+}
+
+.subjects {
+  font-size: 18px;
+  background-color: #fff;
+  padding: 2rem 1rem;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+.quest-ans {
+  margin: 0 auto;
+  width: max-content;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s all ease-out;
+  color: #000000;
+}
+a:hover {
+  color: #000000;
+}
+.subjects-nav {
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
+  align-items: flex-end;
+  border-bottom: 2px solid #2125291a;
+  font-family: "Cairo", sans-serif;
+  font-weight: 600;
+}
+.subjects a {
+  border-radius: 15px 0 0;
+  padding: 7px 15px 0;
+}
+.subjects .active {
+  background-color: #2125291a;
+  color: #000000;
+}
+.question {
+  transition: 0.3s all ease-out;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+  width: 650px;
+}
+
+.ml-3 {
+  margin-left: 1.5rem;
+}
+
+.options {
+  font-size: 16px;
+  font-family: "Cairo", sans-serif;
+}
+.quest-navigator {
+  width: 70%;
+  margin: 0 auto;
+}
+.num-navigator {
+  width: 90%;
+  margin: 2em auto;
+}
+
+.btn {
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+}
+.btn-outline-success:hover {
+  background-color: #0dcaf0;
+  color: #ffffff;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.w-15 {
+  width: 20%;
+}
+.time-status {
+  display: flex;
+}
+
+.dropdown-toggle::after {
+  margin: 0;
+}
+@media (max-width: 900px) {
+  .w-15 {
+    width: 55%;
+  }
+  .time-status {
+    display: inherit;
+  }
+  .num-navigator {
+    margin: 0.5rem auto;
+    width: 95%;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .quest-navigator {
+    width: 84%;
+    margin: 0 auto;
+  }
+  .quest-ans {
+    padding: 0 2rem;
+    width: 100%;
+  }
+  .question {
+    width: 100%;
+  }
+  .subjects-nav {
+    width: 95%;
+  }
+}

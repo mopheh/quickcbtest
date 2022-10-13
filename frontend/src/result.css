@@ -1,0 +1,88 @@
+.stats {
+  background-color: #fff;
+  border-radius: 8px;
+  position: relative;
+
+  box-shadow: rgb(33 33 33 / 6%) 0 4px 24px 5px;
+  z-index: 1;
+  padding: 1rem 0.5rem;
+}
+.stats h3 {
+  padding-left: 1rem;
+  text-transform: uppercase;
+  font-family: "Cairo";
+}
+.result-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Cabin", "Courier New", Courier, monospace;
+}
+.col-sm-5 {
+  padding-right: 10px;
+}
+.col-sm-5 .result-head {
+  border-right: 2px solid #f1dab6;
+}
+
+.col-sm-5 .result-head h5 {
+  border-bottom: 2px solid #f1dab6;
+}
+
+.button button {
+  padding: 0.55rem 1rem;
+  width: 42%;
+}
+
+hr {
+  height: 14px;
+}
+
+.result-head h5 {
+  padding-bottom: 0.5rem;
+  letter-spacing: 1.2px;
+}
+.btn:active {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+@media (max-width: 600px) {
+  .col-sm-5 {
+    width: 45%;
+  }
+
+  .col-sm-4 {
+    width: 28%;
+  }
+  .stats {
+    width: 95% !important;
+  }
+  .button button {
+    width: 45%;
+  }
+}
+
+.scoreboard {
+  height: 650px;
+  width: 100% !important;
+  overflow-y: scroll;
+  overflow-y: scroll;
+}
+
+table {
+  width: 95%;
+  border-radius: 5px;
+}
+table,
+tr,
+td {
+  border: 2px solid rgb(208 208 208);
+}
+td {
+  padding-left: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+.grade {
+  font-weight: 600;
+}
