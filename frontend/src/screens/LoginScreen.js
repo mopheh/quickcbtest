@@ -94,7 +94,7 @@ function LoginScreen() {
                         ></Form.Control>
                     </Form.Group>
                 </Col>
-                <Col sm={4} className='pt-2 pl-2'>
+                <Col md={4} sm={5} className='pt-2 pl-2'>
                     { loading ? <Loader /> : <Button type='submit' variant='primary'>
                         Take Test
                     </Button> }

@@ -16,14 +16,9 @@ router.post('/login', asyncHandler(async (req, res) => {
   if( password === process.env.TEST_PIN ) {
     const userExists = await User.findOne({ matricId })
     if (userExists) {
-      res.json({
-        _id: userExists._id,
-        matricId: userExists.matricId,
-        score: userExists.score,
-        token: generateToken(userExists._id)
-    })
+      res.status(403)
+      throw new Error(`User ${userExists.matricId}, has taken the test`)
   }
-
 
     const user = await User.create({
         matricId,
