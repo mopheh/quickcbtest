@@ -10,8 +10,6 @@ import { logout } from '../actions/userActions'
 
 function ResultScreen() {
 
-
-
     const dispatch = useDispatch()
     const navigate = useNavigate()
     const userLogin = useSelector( state => state.userLogin )
