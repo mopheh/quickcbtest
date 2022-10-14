@@ -1,10 +1,10 @@
 ## QuickTest - An Online Quiz Application 
 
-![Design preview for the QuickTest Login Page](./design/quicktest_login.png)
+![Design preview for the QuickTest Login Page](./design/quicktest_login.PNG)
 
 ## ...
 
-![Design preview for the QuickTest Test Page](./design/quicktest_login.png)
+![Design preview for the QuickTest Test Page](./design/quicktest_login.PNG)
 
 ## Welcome! 👋
 
