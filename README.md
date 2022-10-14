@@ -4,7 +4,7 @@
 
 ## ...
 
-![Design preview for the QuickTest Test Page](./design/quicktest_login.PNG)
+![Design preview for the QuickTest Test Page](./design/quicktest_home.PNG)
 
 ## Welcome! 👋
 
