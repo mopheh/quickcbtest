@@ -31,6 +31,7 @@ function Header() {
     if (window.confirm('Are You Sure?')) {
 
       var score = 0
+      // eslint-disable-next-line
       questions.map((question, index) => {
         if (options) {
           if(question.answer === options[index]){
