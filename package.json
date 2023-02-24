@@ -5,9 +5,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server",
+    "start": "node backend/server && npm run build --prefix frontend",
     "server": "nodemon backend/server",
-    "client": "npm start --prefix frontend && npm run build --prefix frontend",
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
